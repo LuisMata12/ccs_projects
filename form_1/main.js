@@ -22,7 +22,7 @@ validation= (usuario,nombre,contraseña)=>{
             if(loging.pasword[numeroDeRegistr]==contraseña){
                 alert(`Bienvenido ${nombre}`)
             }else{
-                alert(`contraseña incorrecta`)
+                alert(`contraseña incorrecta`)  
             }
         }else{
             alert(`El nombre: ${nombre} no fue encontrado, verifica si esta correcto`)
